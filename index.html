@@ -10,13 +10,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="cover.css" rel="stylesheet">
+    
 </head>
 <body>
-    
-    <header>
-        
-        <div class="container1">
+<!-- header-->
+<main>
+  <h1 class="visually-hidden">Headers examples</h1>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        <i class="fa-sharp fa-solid fa-circle-user"style="font-size: 30px;"> </i>
+        <span class="fs-4"><strong>Conicles</strong></span>
+      </a>
 
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    <div class="content1">
+
+        <h1 class="anim">Hi There,<br>I'm Coni Villarante</h1>
+        <a href="#about " class="btn anim">About Me<i class="fa-solid fa-arrow-down" style="font-size: 15px;"></i> </a>
+
+    </div>
+    
+</div>
+</section>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    >
+</script>
+    
+    <!--<header>
+        <div class="container1">
             <h1>John Nicolas Villarante</h1>
             <div class = "icons">
                 <a class ="twi"href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
@@ -26,38 +75,41 @@
             </div>
             <p>IT Student | Aspiring Developer | Watdaep</p>
             
-        </div>
+        </div>//
         
-    </header>
+    </header>-->
+    <div>
+        <img src="Pictures/avatar.png" class="avatar anim">
+    </div>
     
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             
-            <h2>About Me</h2>
+            <h2><i class="fa-sharp fa-solid fa-user"style="font-size: 25px;"> </i>About Me</h2>
             <div class="profile">
-                <img src="ako.jpg" alt="Your Picture">
-                <p>Hello! I'm currently a student pursuing a degree in Bachelor of Science in Information Technology. I'm passionate about web development, 
+                <img src="Pictures/ako.jpg" alt="Your Picture">
+                <p>Hello! I'm John Nicolas Villarante and currently a student pursuing a degree in Bachelor of Science in Information Technology. I'm passionate about web development, 
                    programming, and continuously learning new skills. I enjoy building projects that challenge me to 
                    grow and expand my knowledge.</p>
             </div>
         </div>
     </section>
 
-    <section class="education">
+    <section class="education" id="education">
         <div class="container">
-            <h2>Education</h2>
+            
+            <h2><i class="fa-solid fa-graduation-cap"> </i>Education</h2>
             <p><strong>Degree Program:</strong> Bachelor of Science in Information Technology</p>
             <p><strong>University:</strong> University of Rizal System(Binangonan Campus)</p>
             <p><strong>Expected Graduation:</strong> 2026-2027</p>
         </div>
     </section>
 
-    
-
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
-            <h2>Skills</h2>
+            
+            <h2><i class="fa-solid fa-computer"> </i>Skills</h2>
             <ul>
                 <li>HTML, CSS, C#</li>
                 <li>Knowledge in PC assembling and disassembling</li>
@@ -66,9 +118,9 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
-            <h2>Contact Me</h2>
+            <h2><i class="fa-solid fa-phone"> </i>Contact Me</h2>
             <p><strong>Email:</strong><a href=""> nicolasvillarante@gmail.com</a></p>
             <p><strong>Phone:</strong> 0946 542 5833</p>
         </div>
@@ -79,6 +131,6 @@
             <p>&copy; 2024 . All rights reserved.</p>
         </div>
     </footer>
-    
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
